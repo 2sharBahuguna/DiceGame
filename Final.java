@@ -1,5 +1,5 @@
 import java.util.*;
-public class Final {
+public class Main {
 	public static void main(String [] args)
 	{
 		Scanner sc = new Scanner(System.in);
@@ -8,19 +8,25 @@ public class Final {
 		System.out.println("Please enter 2 for Snake Water Gun");
 		System.out.println();
     int Num1=12, Num2=8, Temp, GCD=0;
+    
      float P = 1, R = 1, T = 1;
+
 		int choice = sc.nextInt();
+		 Random rand = new Random();
+	
 	
 		switch(choice)
 		{
 		case 1:
 		  System.out.println("Enter the number of dice: ");
+		  
+		  	
 
-        Scanner sc = new Scanner(System.in);
+            int n = sc.nextInt();
 
-        int n = sc.nextInt();
 
-        Random rand = new Random();
+       
+       
 
            do 
 
@@ -42,9 +48,8 @@ public class Final {
 			break;
 			
 		case 2:
+
 		
- Scanner sc=new Scanner(System.in);
-		Random rand=new Random();
 		int com=rand.nextInt(100);
 		System.out.println("Enter the number of matches,You want to Play");
 		int match=sc.nextInt();
